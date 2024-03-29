@@ -4,33 +4,59 @@
     box-sizing:border-box;
 }
 
+header h1{
+    color: cadetblue;
+}
 nav {
     background-color: white;
+    color: rgb(253, 235, 196);
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
 }
 .nav-link {
-    color:cadetblue;
     font-size:1rem;
     font-weight: 700;
+    color:white;
 }
 .nav-link:hover {
     color: white;
-    background-color: cadetblue;
+    background-color:cadetblue;
 }
+
+a.nav-link {
+    color: cadetblue;
+}
+
 .card {
     border: none;
     outline: none;
     display: inline-block
 }
 
+.card-body:hover{
+    cursor:pointer;
+    transform: scale(1.03);
+    box-shadow: slategray;
+}
 .card p {
     color: cadetblue
 }
 
 .card-body h2 {
-    color: slategray;
+    color: rgb(54, 79, 104);
     
 }
 
 .col {
     color:cadetblue;
-    }
+}
+
+.C1 { 
+    color:cadetblue;
+    
+}
+
+#work h2 {
+    color: cadetblue;
+}
