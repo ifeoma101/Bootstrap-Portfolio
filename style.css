@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+nav {
+    background-color: white;
+}
+.nav-link {
+    color:cadetblue;
+    font-size:1rem;
+    font-weight: 700;
+}
+.nav-link:hover {
+    color: white;
+    background-color: cadetblue;
+}
+.card {
+    border: none;
+    outline: none;
+    display: inline-block
+}
+
+.card p {
+    color: cadetblue
+}
+
+.card-body h2 {
+    color: slategray;
+    
+}
+
+.col {
+    color:cadetblue;
+    }
