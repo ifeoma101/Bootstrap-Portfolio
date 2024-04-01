@@ -60,3 +60,7 @@ a.nav-link {
 #work h2 {
     color: cadetblue;
 }
+
+h2 a {
+    text-decoration: none;
+}
